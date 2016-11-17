@@ -4,7 +4,15 @@ Prisma is a unified game server management suite developed by CubedHost to provi
 Client libraries will also be made available for JS/Node and other languages.
 
 ## Authentication
-All API calls must be authenticated using a valid API key. Passing your key to the API is as simple as including it in an `X-API-KEY` header with all requests.
+All API calls must be authenticated using a valid API key. Passing your key to the API is as simple as including it in an `X-API-KEY` header with all requests. In addition, you'll also need to include your Prisma account email address via the `X-API-USER` header.
+
+### Example
+```
+POST /server/1234/restart
+Content-Type: application/json
+X-Api-Key: <key>
+X-Api-User: justin@cubedhost.com
+```
 
 ## Endpoints
 Base API URL: `https://prisma.cubedhost.com/api/`
@@ -28,3 +36,6 @@ Base API URL: `https://prisma.cubedhost.com/api/`
 | /server/:id/database     | GET    | Get server's database info
 | /server/:id/database     | PUT    | Create server's database
 | /server/:id/database     | DELETE | Delete server's database
+
+## Examples
+You can find sample code under the `examples` folder of this repo.
