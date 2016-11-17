@@ -7,6 +7,8 @@ Client libraries will also be made available for JS/Node and other languages.
 All API calls must be authenticated using a valid API key. Passing your key to the API is as simple as including it in an `X-API-KEY` header with all requests.
 
 ## Endpoints
+Base API URL: `https://prisma.cubedhost.com/api/`
+
 | Path                     | Method | Description
 | :----------------------- | :----: | :--- |
 | /user                    | GET    | Get your user account
