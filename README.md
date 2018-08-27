@@ -37,6 +37,7 @@ Base API URL: `https://prisma.cubedhost.com/api/`
 | /server/:id/database     | PUT    | Create server's database
 | /server/:id/database     | DELETE | Delete server's database
 | /server/:id/console      | POST   | Send console command | `{ "command": "example" }`
+| /server/:id/players      | GET    | Get all players
 
 ## Examples
 You can find sample code under the `examples` folder of this repo.
