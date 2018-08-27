@@ -17,8 +17,8 @@ X-Api-User: justin@cubedhost.com
 ## Endpoints
 Base API URL: `https://prisma.cubedhost.com/api/`
 
-| Path                     | Method | Description
-| :----------------------- | :----: | :--- |
+| Path                     | Method | Description | Request Body
+| :----------------------- | :----: | :---------: | :-----
 | /user                    | GET    | Get your user account
 | /user                    | POST   | Update your user account
 | /user/profile            | GET    | Get your user profile
@@ -36,6 +36,7 @@ Base API URL: `https://prisma.cubedhost.com/api/`
 | /server/:id/database     | GET    | Get server's database info
 | /server/:id/database     | PUT    | Create server's database
 | /server/:id/database     | DELETE | Delete server's database
+| /server/:id/console      | POST   | Send console command | `{ "command": "example" }`
 
 ## Examples
 You can find sample code under the `examples` folder of this repo.
