@@ -1,3 +1,8 @@
+# 📣 Before you proceed...
+
+We're actively making changes to our control panel, and in the (not so distant) future, it's likely we'll be changing how things work with the Prisma API.  
+More details will follow in the coming months. For now, it's worth noting we'll aiming to use OAuth2 & the OpenAPI spec.  
+
 # Prisma API
 Prisma is a unified game server management suite developed by CubedHost to provide unparalleled control over and insight into your game servers. Through the public REST API, you can easily interact with and control your servers from anywhere within any application or script.
 
